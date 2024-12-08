@@ -545,9 +545,7 @@ h2{
         margin-bottom: 10%;
     } 
 
-    .certificado-item {
-        flex: 1;
-    }
+    
 }
 
 @media (min-width: 1200px) {
