@@ -4,7 +4,7 @@ const sections = document.querySelectorAll('.content-section');
 // Registrar service worker
 if ('serviceWorker' in navigator) {
   window.addEventListener('load',function(){
-      navigator.serviceWorker.register('../serviceworker.js')
+      navigator.serviceWorker.register('/serviceworker.js')
       .then(registro => {
           console.log("El service worker se registro de manera correcta");
       })

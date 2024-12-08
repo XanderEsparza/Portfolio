@@ -1,4 +1,4 @@
-const CACHE_NAME = "V1_cache_PWA_IEVND";
+const CACHE_NAME = "PortafolioWeb";
 
 urlsToCache = [
     './',
@@ -30,10 +30,17 @@ urlsToCache = [
     './img/mongodb.png',
     './img/mysql.png',
     './img/nodejs.png',
-    './img/prueba.jpeg',
+    './img/apicomida.PNG',
+    './img/ecommerce.PNG',
+    './img/recetario.PNG',
+    './img/cursos.PNG',
     './img/vscode.png',
     './img/xander.jpg',
     './img/pwa/icon-72x72.png',
+    './img/pwa/icon-96x96.png',
+    './img/pwa/icon-128x128.png',
+    './img/pwa/icon-152x152.png',
+    './img/pwa/icon-384x384.png',
     './img/pwa/icon-192x192.png',
     './img/pwa/icon-512x512.png'
 ];
@@ -41,16 +48,15 @@ urlsToCache = [
 //Funcion de instalacion
 //almacena el nombre y los archivos que van a ir guardados en cache
 
-self.addEventListener('install', e =>{
-    e.waitUntil( //le decimos que detenga el evento hasta que se ejecute lo siguiente
+self.addEventListener('install', e => {
+    e.waitUntil(
         caches.open(CACHE_NAME)
-        .then(cache =>{
+        .then(cache => {
             return cache.addAll(urlsToCache)
-            .then(() => self.skipWaiting)
+                .then(() => self.skipWaiting());
         })
-
-    )
-})
+    );
+});
 
 self.addEventListener('activate', e =>{
     const listaBlancaCache = [CACHE_NAME];
