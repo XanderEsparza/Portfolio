@@ -1,0 +1,24 @@
+Para copiar y pegar elementos    Boots watch
+para fondos degradados:     	 uiGradients o cssgradients
+Para imagenes sin derechos  	 freepik
+Para crear olas;           	 Smooth.ie SVG Generator
+Texto 3D                   	 bennettfeely.com
+                            	 css creature
+para hacer graficas        	 css pie charp
+                          	 css efectos
+para generar colores        	 https://colormagic.app/palette/SckTb5nePBhKoLJiyVjU
+				 Colors
+mas colores                	 Color Hex
+                          	 Paletton
+Para varherramientas             Galactic /.ink/spherer
+----trucos en css                css Tricks
+mas imagees                      Pixels
+ag. color al mover mause         Color.hailpixel.com
+para fondos                      svg Backgrounds
+----pruebas para http.css.jscript  Code Pen y httml_css_js.com
+para fuentes de texto           Googlefonts
+para iconos	 		Fontawesome
+
+-----------------------------------------------------------------
+Botones chidos                  uiverse.io
+distintos fondos                https://bgjar.com/

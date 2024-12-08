@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio web">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Erick Xander Esparza Navarro</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Seccion del perfil -->
+        <section id="profile-section">
+            <div>
+                <img id="profile-photo" src="./img/xander.jpg" alt="Erick Xander Esparza Navarro" loading="lazy">
+            </div>
+            <div>
+                <h1>Erick Xander Esparza Navarro</h1>
+                <p>Desarrollador de Software</p>
+                <div class="contact-icons">
+                    <div>
+                        <a href="https://www.linkedin.com/in/erick-xander-esparza-navarro-163604340/" target="_blank">
+                            <img src="./img/icons/linkedin.svg" alt="Icono de telefono" loading="lazy">
+                        </a>
+                        <p>Xander Esparza</p>
+                    </div>
+                    <div>
+                        <a href="mailto:xandervesper342@gmail.com">
+                            <img src="./img/icons/email.svg" alt="Icono de email" loading="lazy">
+                        </a>
+                        <p>xanderesparza@gmail.com</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/XanderEsparza" target="_blank">
+                            <img src="./img/icons/github.svg" alt="Icono de github" loading="lazy">
+                        </a>
+                        <p>XanderEsparza</p>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <a href="./src/CV.pdf" download="CV_XanderEsparza">
+                        <button >
+                            <img src="./img/icons/download.svg" alt="Descargar CV">
+                            Descargar CV
+                        </button>
+                    </a>
+                </div>     
+            </div>
+        </section>
+        <hr>
+        
+        <nav>
+            <ul class="nav-items-container">
+                <li class="nav-item" data-target="projects-section">
+                    <div>
+                        <img src="./img/icons/projects.svg" alt="icono proyectos" class="nav-icon" loading="lazy">
+                        <p>Proyectos</p>
+                    </div>   
+                </li>
+                <li class="nav-item" data-target="skills-section">
+                    <div>
+                        <img src="./img/icons/skills.svg" alt="icono habilidades" class="nav-icon" loading="lazy">
+                        <p>Habilidades</p>
+                    </div>    
+                </li>
+                <li class="nav-item" data-target="education-section">
+                    <div>
+                        <img src="./img/icons/education.svg" alt="icono educacion" class="nav-icon" loading="lazy">
+                        <p>Educación</p>
+                    </div>
+                </li>
+                <li class="nav-item" data-target="about-section">
+                    <div>
+                        <img src="./img/icons/user.svg" alt="icono acerca de" class="nav-icon" loading="lazy">
+                        <p>Acerca de</p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- seccion de proyectos -->
+        <section id="projects-section" class="content-section active">
+            <h2>Mis Proyectos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel temporibus, architecto officia inventore repellat atque voluptate reiciendis cum nobis quod commodi beatae aspernatur. Pariatur, ut eveniet! Magnam dolore nisi porro.</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./img/prueba.jpeg" alt="proyecto" loading="lazy">
+                    <div class="title-container">
+                        <h3>Recetario de Cocina</h3>
+                        <a href="https://github.com/XanderEsparza/Recetario" target="_blank" class="github-link">
+                            <img src="./img/icons/github-oscuro.svg" alt="icono github">
+                        </a>
+                    </div>
+                    <p>Aplicación móvil donde los usuarios pueden subir y compartir recetas de cocina creando un recetario compartido donde las personas pueden aprender.</p>
+                    <div class="language-label-container">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="./img/prueba.jpeg" alt="proyecto" loading="lazy">
+                    <div class="title-container">
+                        <h3>API Comida</h3>
+                        <a href="https://github.com/XanderEsparza/ApiComida" class="github-link" target="_blank">
+                            <img src="./img/icons/github-oscuro.svg" alt="icono de github">
+                        </a>
+                    </div>
+                    <p>API REST donde un usuario administrador puede aceptar solicitudes de registro de usuarios a traves de gmail. Los usuarios aceptados pueden subir la información de distintos platillos.</p>
+                    <div class="language-label-container">
+                        <span>Node</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="./img/prueba.jpeg" alt="proyecto" loading="lazy">
+                    <div class="title-container">
+                        <h3>Suscripción a cursos</h3>
+                        <a href="https://github.com/XanderEsparza/pagina_cursos_nodejs" class="github-link" target="_blank">
+                            <img src="./img/icons/github-oscuro.svg" alt="icono github">
+                        </a>
+                    </div>
+                    <p>Página web donde un usuario administrador administra sus cursos para que las personas interesadas paguen una suscripción que les da acceso a ellos.</p>
+                    <div class="language-label-container">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                        <span>Node</span>
+                        <span>Express</span>
+                        <span>MySQL</span>
+                        <span>EJS</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="./img/prueba.jpeg" alt="proyecto" loading="lazy">
+                    <div class="title-container">
+                        <h3>API Ecommerce</h3>
+                        <a href="https://github.com/TDroidX/API_E-Commerce" class="github-link" target="_blank">
+                            <img src="./img/icons/github-oscuro.svg" alt="icono github">
+                        </a>
+                    </div>
+                    <p>API REST que hace toda la funcionalidad de un comercio en linea, desde el registro de productos hasta la venta de los mismos.</p>
+                    <div class="language-label-container">
+                        <span>Node</span>
+                        <span>Express</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seccion de habilidades -->
+        <section id="skills-section" class="content-section">
+            <h2>Mis Habilidades</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel veritatis vitae eius quas tempore deleniti temporibus rerum! Quod ducimus perferendis dolores sunt magnam! Vel provident nihil facilis incidunt quidem.</p>
+            <div class="skill-card">
+                <h3>Back-end</h3>
+                <div class="skill-img-container">
+                    <div>
+                        <img src="./img/nodejs.png" alt="nodejs" loading="lazy">
+                        <p>NodeJs</p>
+                    </div>
+                    <div>
+                        <img src="./img/express.png" alt="express" loading="lazy">
+                        <p>Express</p>
+                    </div>
+                    <div>
+                        <img src="./img/laravel.png" alt="laravel" loading="lazy">
+                        <p>Laravel</p>
+                    </div>
+                    <div>
+                        <img src="./img/mongodb.png" alt="mongodb" loading="lazy">
+                        <p>MongoDB</p>
+                    </div>
+                    <div>
+                        <img src="./img/mysql.png" alt="mysql" loading="lazy">
+                        <p>MySQL</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <h3>Front-end</h3>
+                <div class="skill-img-container">
+                    <div>
+                        <img src="./img/html.png" alt="html" loading="lazy">
+                        <p>HTML</p>
+                    </div>
+                    <div>
+                        <img src="./img/css.webp" alt="css" loading="lazy">
+                        <p>CSS</p>
+                    </div>
+                    <div>
+                        <img src="./img/js.png" alt="JavaScript" loading="lazy">
+                        <p>JavaScript</p>
+                    </div>
+                    <div>
+                        <img src="./img/bootstrap.png" alt="Bootstrap" loading="lazy">
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <h3>Herramientas</h3>
+                <div class="skill-img-container">
+                    <div>
+                        <img src="./img/git.png" alt="Git" loading="lazy">
+                        <p>Git</p>
+                    </div>
+                    <div>
+                        <img src="./img/github.png" alt="GitHub" loading="lazy">
+                        <p>GitHub</p>
+                    </div>
+                    <div>
+                        <img src="./img/vscode.png" alt="VSCode" loading="lazy">
+                        <p>VSCode</p>
+                    </div>
+                    <div>
+                        <img src="./img/figma.png" alt="Figma" loading="lazy">
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seccion de educacion -->
+        <section id="education-section" class="content-section">
+            <h2>Estudios</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <h3>Colegio de Estudios Científicos y Tecnológicos de Aguascalientes</h3>
+                        <p>Técnico en programación</p>
+                        <span>2018 - 2021</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <h3>Universidad Tecnológica del Norte de Aguascalientes</h3>
+                        <p>Técnico Superior Universitario en Tecnologías de la Información área Desarrollo de Software Multiplataforma</p>
+                        <span>2021 - 2023</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="dot"></div>
+                    <div class="content">
+                        <p>Ingeniería en Desarrollo y Gestión de Software</p>
+                        <span>2023 - Actual</span>
+                    </div>
+                </div>
+            </div>
+            <h2>Certificados</h2>
+            <div class="certificados-container">
+                <div class="certificado-item">
+                    <img src="./img/certificado_azle.PNG" alt="Certificado Azle" loading="lazy">
+                    <div class="overlay">
+                        <p>Certificado Azle</p>
+                    </div>
+                </div>
+                <div class="certificado-item">
+                    <img src="./img/certificado_motoko.PNG" alt="Certificado Motoko" loading="lazy">
+                    <div class="overlay">
+                        <p>Certificado Motoko</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Seccion de acerca de -->
+        <section id="about-section" class="content-section">
+            <h2>Sobre mi...</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis a amet alias labore esse dolorem commodi quibusdam exercitationem ex ut vel impedit totam, dignissimos, excepturi, dicta in. Fugit, temporibus beatae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis a labore cumque, minus beatae illo incidunt dolores in, nisi sit dicta tenetur nostrum inventore assumenda aut similique necessitatibus recusandae! Corporis.</p>
+            <div>
+                <span>Responsable</span>
+                <span>Adaptable</span>
+                <span>Organizado</span>
+                <span>Trabajo en Equipo</span>
+                <span>Logica de Programación</span>
+            </div>
+            
+        </section>
+    </div><!--Container-->
+    <script src="js/script.js"></script>
+</body>
+</html>
